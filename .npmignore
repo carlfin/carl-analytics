@@ -1,0 +1,10 @@
+coverage/
+src/
+.DS_STORE
+.eslintignore
+.eslintrc.js
+babel.config.js
+jest.config.js
+rollup.config.js
+testSetup.js
+*.tgz
