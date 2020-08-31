@@ -7,7 +7,7 @@ const env = process.env.NODE_ENV;
 
 module.exports = [
   {
-    external: ['react', 'uuid'],
+    external: ['js-cookie', 'react', 'uuid'],
     input: {
       index: 'src/index.js',
     },

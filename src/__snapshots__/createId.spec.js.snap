@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createId() should return value based on \`_ga\` 1`] = `"487260d5-84da-5b5a-86c1-c6539321c08e"`;
