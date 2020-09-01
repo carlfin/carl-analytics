@@ -1,1 +1,1 @@
-export { default as createId } from './createId';
+export { default as createId, KEY } from './createId';
