@@ -28,14 +28,14 @@ describe('createId()', () => {
     const id = createId();
 
     expect(id).toMatchSnapshot();
-    expect(cookies.set).toHaveBeenCalledWith('carlId', id);
+    expect(cookies.set).toHaveBeenCalledWith('carlId', id, { expires: 365 });
   });
 
   it('should return a new random value', () => {
     const id = createId();
 
     expect(id).toEqual(expect.any(String));
-    expect(cookies.set).toHaveBeenCalledWith('carlId', id);
+    expect(cookies.set).toHaveBeenCalledWith('carlId', id, { expires: 365 });
   });
 });
 

@@ -20,7 +20,7 @@ function createId() {
   const id = gaCookie ? uuidv5(gaCookie, NAMESPACE) : uuidv4();
 
   // Set a new cookie with the generated value.
-  cookies.set(KEY, id);
+  cookies.set(KEY, id, { expires: 365 });
 
   return id;
 }
