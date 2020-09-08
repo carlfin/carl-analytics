@@ -9,9 +9,10 @@
     "cover": "jest --coverage",
     "lint": "eslint --quiet --ext .js --ext .jsx ."
   },
-  "main": "dist/index.js",
+  "main": "cjs/index.js",
   "files": [
-    "dist/*"
+    "browser/*",
+    "cjs/*"
   ],
   "sideEffects": false,
   "contributors": [
@@ -48,7 +49,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "rollup": "^1.27.13",
-    "rollup-plugin-babel": "^4.3.3"
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-terser": "^7.0.2"
   },
   "dependencies": {
     "js-cookie": "^2.2.1",

@@ -42,4 +42,5 @@ coverage/
 .env
 
 # Project
-dist
+browser
+cjs
